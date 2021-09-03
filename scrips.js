@@ -118,7 +118,7 @@ const sectionObserver = new IntersectionObserver(revealSection, {
 })
 allsections.forEach((section) => {
     sectionObserver.observe(section)
-    // section.classList.add('section--hidden')
+    section.classList.add('section--hidden')
 })
 ///////
 let imgTargets = document.querySelectorAll('img[data-src]')
